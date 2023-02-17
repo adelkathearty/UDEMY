@@ -6,8 +6,8 @@ import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.TestInstance;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
-import qatools.common.ConfigQA;
 import vietnamvisa.Common.VisaCommonActions;
+import vietnamvisa.Common.VisaConfig;
 import vietnamvisa.Page.BasePageVisa.BasePageVisa;
 import vietnamvisa.Page.FormPageVisa.FormPageVisa;
 
@@ -23,7 +23,7 @@ public class VisaBaseTest {
 
     @AfterEach
     void cleanCookiesAndLocalStorage() {
-        if (ConfigQA.CLEAR_COOKIES) {
+        if (VisaConfig.CLEAR_COOKIES) {
             JavascriptExecutor javascriptExecutor = (JavascriptExecutor) driver;
             driver.manage().deleteAllCookies();
             javascriptExecutor.executeScript("window.sessionStorage.clear()");
@@ -33,7 +33,7 @@ public class VisaBaseTest {
 
     @AfterAll
     void close() {
-        if (!ConfigQA.HOLD_BROWSER_OPEN) {
+        if (!VisaConfig.HOLD_BROWSER_OPEN) {
             driver.close();
         }
     }
