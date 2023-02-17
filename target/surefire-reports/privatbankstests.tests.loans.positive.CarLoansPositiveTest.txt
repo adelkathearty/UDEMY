@@ -1,0 +1,19 @@
+-------------------------------------------------------------------------------
+Test set: privatbankstests.tests.loans.positive.CarLoansPositiveTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 100.144 s <<< FAILURE! - in privatbankstests.tests.loans.positive.CarLoansPositiveTest
+selectAgreementsTabInPublicSession  Time elapsed: 72.047 s  <<< ERROR!
+org.openqa.selenium.TimeoutException: Expected condition failed: waiting for presence of element located by: By.xpath: //form[@action='/'] (tried for 20 second(s) with 500 milliseconds interval)
+	at privatbankstests.tests.loans.positive.CarLoansPositiveTest.selectAgreementsTabInPublicSession(CarLoansPositiveTest.java:15)
+Caused by: org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//form[@action='/']"}
+  (Session info: chrome=110.0.5481.96)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Steves-MacBook-Air.local', ip: 'fe80:0:0:0:4dc:2c9f:18d7:cb13%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '13.0.1', java.version: '1.8.0_352'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 110.0.5481.96, chrome: {chromedriverVersion: 110.0.5481.77 (65ed616c6e8e..., userDataDir: /var/folders/0l/kr3cxrls1k9...}, goog:chromeOptions: {debuggerAddress: localhost:51976}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 457a1427c6183f275ec8e7846ca538a5
+*** Element info: {Using=xpath, value=//form[@action='/']}
+	at privatbankstests.tests.loans.positive.CarLoansPositiveTest.selectAgreementsTabInPublicSession(CarLoansPositiveTest.java:15)
+

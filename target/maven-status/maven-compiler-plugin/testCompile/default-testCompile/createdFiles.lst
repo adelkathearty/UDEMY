@@ -1,0 +1,9 @@
+privatbankstests/tests/base/BaseTest.class
+qatoolstests/base/forms/FormPageTestQA.class
+visatest/FormPageVisaTest/FormPageVisaTest.class
+qatoolstests/base/elements/ElementsTestQA.class
+qatoolstests/base/BaseTestQA.class
+visatest/base/VisaBaseTest.class
+visatest/BasePageTest/BasePageTest.class
+privatbankstests/tests/loans/positive/CarLoansPositiveTest.class
+privatbankstests/tests/telecomunications/positive/MobilePhoneTopUpPositiveTest.class

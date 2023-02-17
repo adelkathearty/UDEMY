@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: visatest.BasePageTest.BasePageTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 61.866 s - in visatest.BasePageTest.BasePageTest

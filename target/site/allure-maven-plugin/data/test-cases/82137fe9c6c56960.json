@@ -1,0 +1,59 @@
+{
+  "uid" : "82137fe9c6c56960",
+  "name" : "fillForm()",
+  "fullName" : "visatest.FormPageVisaTest.FormPageVisaTest.fillForm",
+  "historyId" : "a22a85083d4b0145922a5fd0fe8fc721",
+  "time" : {
+    "start" : 1676670156358,
+    "stop" : 1676670173395,
+    "duration" : 17037
+  },
+  "description" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "epic",
+    "value" : "#project.description#"
+  }, {
+    "name" : "host",
+    "value" : "Steves-MacBook-Air.local"
+  }, {
+    "name" : "thread",
+    "value" : "97742@Steves-MacBook-Air.local.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "visatest.FormPageVisaTest.FormPageVisaTest"
+  }, {
+    "name" : "testClass",
+    "value" : "visatest.FormPageVisaTest.FormPageVisaTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "fillForm"
+  }, {
+    "name" : "suite",
+    "value" : "visatest.FormPageVisaTest.FormPageVisaTest"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "82137fe9c6c56960.json",
+  "parameterValues" : [ ]
+}
