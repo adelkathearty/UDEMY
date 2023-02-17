@@ -24,6 +24,5 @@ public class FormPageVisaTest extends VisaBaseTest {
         FormPageVisa.enterReligion();
 //        FormPageVisa.inputFacePhoto();
 //        FormPageVisa.inputPassportPhoto();
-
     }
 }
