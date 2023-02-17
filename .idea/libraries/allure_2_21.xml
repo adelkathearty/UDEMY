@@ -1,0 +1,21 @@
+<component name="libraryTable">
+  <library name="allure-2.21">
+    <ANNOTATIONS>
+      <root url="file://$MAVEN_REPOSITORY$/io/qameta/allure-2.21.0" />
+    </ANNOTATIONS>
+    <CLASSES>
+      <root url="file://$MAVEN_REPOSITORY$/io/qameta/allure-2.21.0" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="file://$MAVEN_REPOSITORY$/io/qameta/allure-2.21.0" />
+    </JAVADOC>
+    <NATIVE>
+      <root url="file://$MAVEN_REPOSITORY$/io/qameta/allure-2.21.0" />
+    </NATIVE>
+    <SOURCES>
+      <root url="file://$MAVEN_REPOSITORY$/io/qameta/allure-2.21.0" />
+    </SOURCES>
+    <jarDirectory url="file://$MAVEN_REPOSITORY$/io/qameta/allure-2.21.0" recursive="false" />
+    <jarDirectory url="file://$MAVEN_REPOSITORY$/io/qameta/allure-2.21.0" recursive="false" type="SOURCES" />
+  </library>
+</component>
