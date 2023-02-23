@@ -21,8 +21,22 @@ public class FormPageVisaTest extends VisaBaseTest {
         FormPageVisa.enterDate();
         FormPageVisa.chooseGenderMale();
         FormPageVisa.chooseNationality();
+        FormPageVisa.ChooseNationalityOnBirth();
         FormPageVisa.enterReligion();
+        FormPageVisa.enterOccupation();
+        FormPageVisa.enterPermanentAddress();
+        FormPageVisa.enterPhoneNumber();
+        FormPageVisa.enterEmail();
+        FormPageVisa.confirmEmail();
+        FormPageVisa.enterPassNumm();
+        FormPageVisa.enterExpDate();
+        FormPageVisa.chooseEntryDate();
+        FormPageVisa.enterTempAddress();
+        FormPageVisa.chooseEntryPoint();
+        FormPageVisa.chooseExitPoint();
+        FormPageVisa.pressAssureButton();
 //        FormPageVisa.inputFacePhoto();
 //        FormPageVisa.inputPassportPhoto();
+
     }
 }

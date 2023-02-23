@@ -2,7 +2,6 @@ package qatoolstests.base.elements;
 
 import org.junit.jupiter.api.Test;
 import qatoolstests.base.BaseTestQA;
-import qatools.pages.base.elements.ElementsPageQA;
 
 import static qatools.constants.ConstantsQA.Urls.ELEMENTS_URL;
 
@@ -18,6 +17,6 @@ public class ElementsTestQA extends BaseTestQA {
         ElementsPageQA.enterEmail();
         ElementsPageQA.enterCurrentAddress();
         ElementsPageQA.enterPermamentAddress();
-        ElementsPageQA.sumbitInfo();
+        ElementsPageQA.submitInfo();
     }
 }

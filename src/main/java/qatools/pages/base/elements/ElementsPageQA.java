@@ -24,7 +24,7 @@ public class ElementsPageQA {
     public final By emailBox = By.xpath("(//input[@id='userEmail'])[1]");
     public final By currentAddressBox = By.xpath("(//textarea[@id='currentAddress'])[1]");
     public final By permanentAddressBox = By.xpath("(//textarea[@id='permanentAddress'])[1]");
-    public final By sumbitButton = By.xpath("(//button[normalize-space()='Submit'])[1]");
+    public final By submitButton = By.xpath("(//button[normalize-space()='Submit'])[1]");
 
 
     public ElementsPageQA visitTextBox() {
@@ -52,8 +52,8 @@ public class ElementsPageQA {
         return this;
     }
 
-    public ElementsPageQA sumbitInfo() {
-        driver.findElement(sumbitButton).click();
+    public ElementsPageQA submitInfo() {
+        driver.findElement(submitButton).click();
         return this;
     }
 }

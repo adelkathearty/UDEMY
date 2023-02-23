@@ -10,5 +10,5 @@ public class VisaConfig {
     //включение-отключение удаления куки
     public static final Boolean CLEAR_COOKIES = true;
     //закрывать браузер
-    public static final Boolean HOLD_BROWSER_OPEN = false;
+    public static final Boolean HOLD_BROWSER_OPEN = true;
 }

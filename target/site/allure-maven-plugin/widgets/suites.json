@@ -1,6 +1,28 @@
 {
-  "total" : 1,
+  "total" : 3,
   "items" : [ {
+    "uid" : "81c9af2863d7ef9fdd6f31e887363957",
+    "name" : "qatoolstests.base.elements.ElementsTestQA",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    }
+  }, {
+    "uid" : "b5462a49004ec326da535400e58d1dd6",
+    "name" : "visatest.BasePageTest.BasePageTest",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    }
+  }, {
     "uid" : "84c03f58c13e6abf7839f62dd220c3c8",
     "name" : "visatest.FormPageVisaTest.FormPageVisaTest",
     "statistic" : {

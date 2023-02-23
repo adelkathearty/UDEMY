@@ -15,7 +15,9 @@ public class VisaConstants {
 
     public static class Addresses {
 
+        public static final String PERMANENT_ADDRESS = "Ulitsa Dzjerzhinskogo 17, Moscow, Russia , 123123";
 
+        public static final String VIETNAM_ADDRESS = "134 Dao Duy Anh, Ward 9,  Phu Nhuan Dist.";
     }
 
 }

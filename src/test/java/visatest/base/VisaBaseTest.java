@@ -17,8 +17,8 @@ public class VisaBaseTest {
     protected WebDriver driver = VisaCommonActions.createDriver();
 
     protected BasePageVisa BasePageVisa = new BasePageVisa(driver);
-
     protected FormPageVisa FormPageVisa = new FormPageVisa(driver);
+
 
 
     @AfterEach
@@ -37,6 +37,5 @@ public class VisaBaseTest {
             driver.close();
         }
     }
-
 
 }

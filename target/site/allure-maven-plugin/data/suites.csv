@@ -1,2 +1,4 @@
 "Status","Name","Duration in ms","Description"
-"passed","visatest.FormPageVisaTest.FormPageVisaTest.fillForm","17037",""
+"passed","visatest.BasePageTest.BasePageTest.testPage","15007",""
+"passed","visatest.FormPageVisaTest.FormPageVisaTest.fillForm","20402",""
+"passed","qatoolstests.base.elements.ElementsTestQA.testPage","16549",""
